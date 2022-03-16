@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Weather {
+  font-family: arial, sans-serif;
+  border: 1px solid #132030;
+  padding: 16px;
+  border-radius: 4px;
+  color: rgb(218, 207, 233);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(36, 23, 71);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Weather canvas {
+  margin: 10px auto;
+}
+
+.Weather .unit {
+  color: rgb(40, 9, 68);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
 }
